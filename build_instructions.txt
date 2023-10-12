@@ -1,0 +1,1 @@
+make CROSS_COMPILE=../arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi- BOARD=feather_nrf52832 all

@@ -346,7 +346,7 @@ uint32_t bootloader_dfu_start(bool ota, uint32_t timeout_ms, bool cancel_timeout
       app_timer_start(_dfu_startup_timer, APP_TIMER_TICKS(timeout_ms), NULL);
     }
 
-    err_code = dfu_transport_serial_update_start();
+    // err_code = dfu_transport_serial_update_start();
   }
 
   wait_for_events();

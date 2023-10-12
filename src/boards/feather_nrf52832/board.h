@@ -28,7 +28,7 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER        2
+#define LEDS_NUMBER        0
 #define LED_PRIMARY_PIN    17 // Red
 #define LED_SECONDARY_PIN  19 // Blue
 #define LED_STATE_ON       1
